@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Basic JavaScript</title>
+        <meta charset="utf-8">
+        <script src="./JS/Basic_JavaScript_3.js"></script>
+	</head>
+	<body>
+    
+        <h1>JavaScript Math</h1>
+		
+            <h3>Basic JavaScript 3</h3>
+
+        <h2>JavaScript Addition</h2>
+            
+           
+            <button onclick="addition_Function()" id="Math">
+                2 + 2 =
+            </button>
+
+        <h2>JavaScript Subtraction</h2>
+
+            <button onclick="subtraction_Function()" id="Math2">
+                5 - 2 =
+            </button>
+
+        <h2>JavaScript Multiplication</h2>
+
+            <button onclick="multiplication_Function()" id="Math3">
+                6 * 8 =
+            </button>
+
+        <h2>JavaScript Division</h2>
+
+            <button onclick="division_Function()" id="Math4">
+                48 / 6 =
+            </button>
+
+        <h2>JavaScript Multiple Operations</h2>
+
+            <button onclick="more_Math()" id="Math5">
+                (1 + 2) * 10 / 2 - 5 =
+            </button>
+
+        <h2>JavaScript Modulas Operators</h2>
+
+            <button onclick="modulas_Operator()" id="Math6">
+                 25 % 6 
+            </button>
+
+        <h2>JavaScript Unary Operators</h2>
+
+            <button onclick="negation_Operator()" id="Math7">
+                opposite of 10 
+            </button>
+
+        <h2>JavaScript Operators</h2>
+
+        <p id="Math8"></p>
+        <script>
+            var x = 5;
+            x++;
+            var z = x;
+            document.getElementById("Math8").innerHTML = z;
+        </script>
+            
+        <p id="Math9"></p>
+        <script>
+            var y = 5.25;
+            y--;
+            var w = y;
+            document.getElementById("Math9").innerHTML = w;
+        </script>
+
+        <h2>Random</h2>
+        
+        <script>window.alert(Math.random());</script>
+
+        <script>window.alert(Math.random() * 100)</script>
+           
+		
+	</body>
+</html>
